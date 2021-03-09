@@ -15,5 +15,9 @@
 </head>
 <body>
     <h1>Coming Soon</h1>
+    <script>
+        const h1 = document.querySelector('h1');
+        setInterval(()=>h1.innerHTML.length>14?h1.innerHTML="Coming Soon":h1.innerHTML+=".",1000);
+    </script>
 </body>
 </html>
